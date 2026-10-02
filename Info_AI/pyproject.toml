@@ -1,0 +1,22 @@
+[project]
+name = "info-ai"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Dario Didonna",email = "tuaemail@example.com"}
+]
+readme = "README.md"
+requires-python = ">=3.10,<3.14"
+dependencies = [
+    "chainlit (>=2.12.0,<3.0.0)",
+    "requests (>=2.34.2,<3.0.0)",
+    "openai (>=3.22.1,<4.0.0)",
+    "tavily-python (>=0.8.4,<0.9.0)"
+]
+
+[tool.poetry]
+packages = [{include = "info_ai", from = "src"}]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

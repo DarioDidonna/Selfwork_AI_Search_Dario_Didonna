@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60" width="200" height="60">
+  <!-- Icona RAG / Nodo AI -->
+  <g fill="none" stroke="#0284c7" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="28" cy="22" r="5" fill="#0284c7" />
+    <circle cx="16" cy="38" r="4" />
+    <circle cx="40" cy="38" r="4" />
+    <path d="M25 26 L19 35" />
+    <path d="M31 26 L37 35" />
+    <path d="M20 38 L36 38" />
+  </g>
+  <!-- Scritta sotto / a fianco -->
+  <text x="56" y="32" font-family="'Inter', sans-serif" font-weight="700" font-size="20" fill="#1e293b">
+    INFO<tspan fill="#0284c7">.AI</tspan>
+  </text>
+  <text x="57" y="44" font-family="'Inter', sans-serif" font-weight="500" font-size="9" fill="#64748b" letter-spacing="1">
+    HR RAG ASSISTANT
+  </text>
+</svg>
